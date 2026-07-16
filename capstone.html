@@ -22,8 +22,6 @@ body{
     background:#f3f4f9;
 }
 
-/* SIDEBAR */
-
 .sidebar{
     width:250px;
     height:100vh;
@@ -64,8 +62,6 @@ body{
     box-shadow:0 5px 20px rgba(46,102,245,.5);
 }
 
-/* MAIN */
-
 .main{
     margin-left:270px;
     width:calc(100% - 270px);
@@ -78,8 +74,6 @@ body{
     font-weight:bold;
     margin-bottom:30px;
 }
-
-/* FILTERS */
 
 .filters{
     display:flex;
@@ -99,7 +93,7 @@ body{
     color:#555;
 }
 
-input,select{
+select{
     width:220px;
     padding:12px;
     border:1px solid #ccc;
@@ -126,8 +120,6 @@ button{
 .print{
     background:#6C757D;
 }
-
-/* CONTENT */
 
 .content{
     display:flex;
@@ -156,8 +148,6 @@ button{
     margin-bottom:25px;
 }
 
-/* TABLE */
-
 table{
     width:100%;
     border-collapse:collapse;
@@ -173,19 +163,8 @@ td{
     padding:15px;
     border-bottom:1px solid #ddd;
     text-align:center;
+    height:60px;
 }
-
-.pass{
-    color:green;
-    font-weight:bold;
-}
-
-.fail{
-    color:red;
-    font-weight:bold;
-}
-
-/* SUMMARY */
 
 .summary-item{
     margin-bottom:35px;
@@ -242,11 +221,6 @@ td{
 <div class="filters">
 
 <div class="filter-group">
-<label>Search Student</label>
-<input type="text" placeholder="Search by Name">
-</div>
-
-<div class="filter-group">
 <label>Category</label>
 <select>
 <option>Practice Quiz 1</option>
@@ -276,7 +250,7 @@ td{
 <div class="report-box">
 
 <div class="section-title">
-Practice Quiz 1 - Top 10 Students
+Practice Quiz 1 - Student Records
 </div>
 
 <table>
@@ -288,16 +262,16 @@ Practice Quiz 1 - Top 10 Students
 <th>Status</th>
 </tr>
 
-<tr><td>1</td><td>Maria Santos</td><td>98%</td><td class="pass">Passed</td></tr>
-<tr><td>2</td><td>Juan Dela Cruz</td><td>97%</td><td class="pass">Passed</td></tr>
-<tr><td>3</td><td>Ana Reyes</td><td>96%</td><td class="pass">Passed</td></tr>
-<tr><td>4</td><td>Mark Lim</td><td>95%</td><td class="pass">Passed</td></tr>
-<tr><td>5</td><td>Carla Garcia</td><td>94%</td><td class="pass">Passed</td></tr>
-<tr><td>6</td><td>Paul David</td><td>93%</td><td class="pass">Passed</td></tr>
-<tr><td>7</td><td>Joyce Lim</td><td>92%</td><td class="pass">Passed</td></tr>
-<tr><td>8</td><td>Ken Cruz</td><td>91%</td><td class="pass">Passed</td></tr>
-<tr><td>9</td><td>Claire Tan</td><td>90%</td><td class="pass">Passed</td></tr>
-<tr><td>10</td><td>Ben Cruz</td><td>89%</td><td class="pass">Passed</td></tr>
+<tr><td>1</td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td></td><td></td><td></td></tr>
 
 </table>
 
@@ -307,32 +281,32 @@ Practice Quiz 1 - Top 10 Students
 
 <div class="summary-item">
 <h4>Total Students</h4>
-<p>125</p>
+<p></p>
 </div>
 
 <div class="summary-item">
 <h4>Passed Students</h4>
-<p>98 (78.4%)</p>
+<p></p>
 </div>
 
 <div class="summary-item">
 <h4>Failed Students</h4>
-<p>27 (21.6%)</p>
+<p></p>
 </div>
 
 <div class="summary-item">
 <h4>Highest Score</h4>
-<p>98%</p>
+<p></p>
 </div>
 
 <div class="summary-item">
 <h4>Lowest Score</h4>
-<p>52%</p>
+<p></p>
 </div>
 
 <div class="summary-item">
 <h4>Current Category</h4>
-<p>Practice Quiz 1</p>
+<p></p>
 </div>
 
 </div>
